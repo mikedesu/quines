@@ -96,7 +96,7 @@ main(){
     // 2. we need a column length threshold
     srand(time(0));
     int padding=16;
-    int threshold=random()%padding+padding;
+    int threshold=padding;
 
     // in this quine, we introduce double-character processing
     // we can keep track of the previous character by storing it
@@ -106,7 +106,7 @@ main(){
     // in this quine 14, we introduce an attempt at double-column
     // to achieve this, we will keep track of a 2nd variable
     int tabbed=0;
-    int column_count=5;
+    int column_count=3;
     
     mytime();   
 
